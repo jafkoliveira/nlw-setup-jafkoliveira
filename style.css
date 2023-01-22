@@ -23,12 +23,17 @@
     width: 100%;
     background-color: #09090A;
   }
+  .icone_+{
+    font-size: 32px;
+    color: #8B5CF6;
 
+  }
   button{
+    cursor: pointer;
     padding: 16px 24px;
     border-radius: 8px;
     border: 1px solid #8B5CF6;
-    background-color: transparent;
+    background-color: #09090A;
     color: white;
 
     display: flex;
@@ -40,6 +45,10 @@
     font-weight: 600;
     line-height: 125%;
   }
+  button :hover{
+  color: #8B5CF6;
+  }
+
 
  #form-habits {
     display: flex;
@@ -53,6 +62,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    cursor: pointer;
   }
 
   .habit {
@@ -68,6 +78,7 @@
   }
 
   .days {
+    cursor: pointer;
     display: flex;   
     gap: 18px;
     margin-left: 32px;
@@ -92,6 +103,7 @@
   }
 
   input{
+    cursor: pointer;
     appearance: none;
     -webkit-appearance: none;
 
