@@ -1,0 +1,3 @@
+@ECHO OFF
+code .
+pause
