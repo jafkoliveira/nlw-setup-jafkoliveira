@@ -23,11 +23,11 @@
     width: 100%;
     background-color: #09090A;
   }
-  .icone_+{
+  /* .icone_+{
     font-size: 32px;
     color: #8B5CF6;
 
-  }
+  } */
   button{
     cursor: pointer;
     padding: 16px 24px;
@@ -45,8 +45,13 @@
     font-weight: 600;
     line-height: 125%;
   }
-  button :hover{
-  color: #8B5CF6;
+  button:hover{
+    background-color: #A78BFA;
+    color: #09090A;
+  }
+
+  .img__plus{
+    color: #09090A;
   }
 
 
